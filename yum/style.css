@@ -53,4 +53,28 @@ table {
 
 /* END RESET */
 
+/*add style here*/
+body {background-color:#FFFF99;}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {color: black;
+	font-size: 30px;
+	font-family: Adobe caslon;
+	font-weight: bold;
+	margin-text: 100px;
+	padding: 30PX;
+	text-align: center;
+	text-indent: 10px;
+}
+ul {
+	padding: 5px;
+	margin: 10px 20px 20px 30px;
+	font-family: Gill sans;
+	color: Black;
+	font-style: italic;
+}
+
 
