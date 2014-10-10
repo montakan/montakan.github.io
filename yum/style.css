@@ -69,16 +69,34 @@ h1 {color: black;
 	text-align: center;
 	text-indent: 10px;
 }
+#ingre {
+	float: left;
+	left: 500px;
+	margin: 10 10 10 20%;
+}
 ul {
 	list-style:square;
-	padding: 5px;
-	margin: 10px 20px 20px 30px;
-	font-family: Gill sans;
-	color: Black;
-	font-style: italic;
+    padding: 5px;
+    margin: 10px 20px 20px 30px;
+    font-family: Gill sans;
+    font-style: italic;
+}
+#direc {
+	float: right;
+	width: 38%;
+	padding: 20px;
+	padding-top:120px;
+	margin: 0 3% 0 0;
+	display: inline;}
+}
+#direc {
+	float: right;
 }
 ol { 
-  list-style-type: decimal; 
+	padding: 20px;
+	padding-top:120px;
+	margin: 0 3% 0 0;
+    list-style-type: decimal; 
 }
 
 
