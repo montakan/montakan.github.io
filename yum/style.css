@@ -80,19 +80,17 @@ ul {
     margin: 10px 20px 20px 30px;
     font-family: Gill sans;
     font-style: italic;
+	width: 50%;
 }
 #direc {
-	float: right;
-	width: 38%;
+	float: left;
 	padding: 20px;
-	padding-top:120px;
+	padding-top: 10px;
 	margin: 0 3% 0 0;
-	display: inline;}
 }
-#direc {
-	float: right;
-}
+
 ol { 
+	width: 38%;
 	padding: 20px;
 	padding-top:120px;
 	margin: 0 3% 0 0;
