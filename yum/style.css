@@ -54,47 +54,85 @@ table {
 /* END RESET */
 
 /*add style here*/
-body {background-color:#FFFF99;}
-img.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+body {
+	background-color:#FFFF99;
+	margin: 0 auto;
+    width: 800px;
 }
-h1 {color: black;
+
+h1 {
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.lemon {
+	float:right;
+	padding:10px;
+    top:500px;
+    left:600px;
+}
+
+h2 {
+	color: black;
 	font-size: 30px;
-	font-family: Adobe caslon;
+	font-family: caslon;
 	font-weight: bold;
-	margin-text: 100px;
-	padding: 30PX;
-	text-align: center;
-	text-indent: 10px;
+    width: 50%;
+    float:right;
+	padding-top:30px;
+    padding-bottom:10px;
 }
-#ingre {
-	float: left;
-	left: 500px;
-	margin: 10 10 10 20%;
+#nav {
+	font-size:15px;
+	font-family: caslon;
+    width:40%;
+    float:left;
+    padding-top:120px;
+    padding-bottom:100px;
+	
 }
+
 ul {
 	list-style:square;
     padding: 5px;
     margin: 10px 20px 20px 30px;
-    font-family: Gill sans;
     font-style: italic;
-	width: 50%;
-}
-#direc {
-	float: left;
-	padding: 20px;
-	padding-top: 10px;
-	margin: 0 3% 0 0;
+	font-size: 15px;
+	font-family: caslon;
 }
 
-ol { 
+.how {
+	  color: black;
+	  width: 80%;
+	  float:right;
+	  padding-top:10px;
+	  padding-bottom:10px;
+	  font-size:15px;
+	  font-family: caslon;
+} 
+
+
+.how { 
 	width: 38%;
 	padding: 20px;
-	padding-top:120px;
+	padding-top:60px;
 	margin: 0 3% 0 0;
-    list-style-type: decimal; 
+}
+ol {
+	list-style-type: decimal;
+	font-family: caslon; 
+	font-size:15px;
+}
+
+#footer {
+	font-size: 15px;
+	font-family: caslon;
+    width:30%;
+    float:left;
+    padding-top:60px;
+    padding-bottom:100px;
+	
 }
 
 
