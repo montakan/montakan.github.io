@@ -47,101 +47,105 @@ table {
 	border-spacing: 0;
 }
 
+/* END RESET */
 
 
 
+/*
 
-/*add style here*/
-body {background-color:#E0E0E0;}
-img.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 30px;
+section .nav {margin:0 auto; display:inline-block;}*/
+
+
+.center {
+	margin:10px; padding:30px;
 }
 
 
-#main-menu {
-	position: relative;
-	top: 70px;
-	font-size: 20px;
-	font-family: Adobe caslon;
-	font-weight: bold;
-	border-top: 4px solid black;
-	border-bottom: 4px solid black;
-	text-align: center
+
+body {
+	padding-left: 0%; 
+	padding-top:5%;  
+	padding-right:0%; 
+	position:relative; 
+	text-align:center; 
 }
 
-#main-menu li a { 
-	color: black;
-	text-decoration: none;
-	text-transform: uppercase;
-	margin: 20px;
-}
 
+
+nav {
+	margin:0 auto; 
+	border-top:solid 3px; 
+	border-bottom:solid 3px; 
+	padding-bottom:10px; 
+	padding-top:10px; 
+}
 
 li {
-	display:inline-block;
-	font-family: Adobe caslon;
-	text-transform: uppercase;
-	color: white;
+	display:inline-block; 
+	padding-left:10px; 
+	padding-right:10px; 
+	text-transform:uppercase; 
+	font-weight:bold; 
+	font-size:2em; 
+	list-style-type:disc;
 }
 
 
 
-article {
-	float:right;
-	display:inline;
-	padding:30px;
+#two {
+	padding-left:2%; 
+	padding-right:2%;
+	padding-bottom:4%; 
+	padding-top:1%; 
+	border-bottom:solid 3px; 
+	height:400px;
 }
 
 
-#aside
-		{
-		float: right;
-		width: 38%;
-		padding: 20px;
-		padding-top:120px;
-		margin: 0 3% 0 0;
-		display: inline;}
 
-#column1 {
-		float: left;
-		left: 50px;
-		width: 40%;
-		padding: 50px;
-		padding-top:120px;
-		margin: 0 0 0 4%;
-		display: inline;
-	}
-	img {
-		padding-left: 70px;
-	}
-	h1 { position: relative;
-		left: 180px;
-	}
+#left {
+	float:left; 
+	width:43%; 
+	padding:5px; 
+	padding-right:5%;
+}
+
+
+
+#right {
+	float:left; 
+	width:43%; 
+	padding:5px;
+}
+
 
 
 h1 {
-	left: 10px;
-	padding:20px 10px 10px 60px;
-	font-family: adobe caslon; 
-	font-size: 20px;
-	font-weight: bold;
-	color: black;
+	font-size:1.5em;
+	text-align:left; 
+	padding-top:8px;
+	font-weight:bold; 
 }
 
-p { float: left;
-	left: 10px;
-	font-family: adobe caslon; 
-	font-size: 15px;
-	color: black;
+
+
+p {
+	text-align:left;
+ }
+
+
+
+/* footer { clear:both; margin:10px; padding-top:4px; text-align:left;}*/
+
+.wiki { 
+	float:left;
+	padding:10px;
+	
 }
 
-footer { 
-	float:right;
-	display:inline;
-	padding:30px;
+.copy { 
+	float:left; 
+	width:43%; 
+	padding:20px;
+	text-align:right; 
 }
-
