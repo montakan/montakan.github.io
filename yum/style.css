@@ -82,6 +82,8 @@ h2 {
     float:right;
 	padding-top:30px;
     padding-bottom:10px;
+	text-align: center;
+	
 }
 #nav {
 	font-size:15px;
@@ -126,13 +128,12 @@ ol {
 }
 
 #footer {
+	padding-left: 23px;
 	font-size: 15px;
 	font-family: caslon;
     width:30%;
     float:left;
-    padding-top:60px;
-    padding-bottom:100px;
-	
+    padding-top:100px;
 }
 
 
