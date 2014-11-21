@@ -81,6 +81,10 @@ h2 {
 	color: black;
 	padding-bottom:1%;
 }
+#Intro {width: 80%;
+		margin: 0 auto;
+	
+	}
 p {
 	font-family:helvetica;
 	font-size:10px; 
