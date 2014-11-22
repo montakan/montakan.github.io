@@ -53,7 +53,7 @@ table {
 /* -----------------END RESET---------------- */
 
 div {
-		max-width: 80%;
+		max-width: 100%;
 		margin: 0 auto;
 	}
 #works1 {
@@ -81,15 +81,78 @@ h2 {
 	color: black;
 	padding-bottom:1%;
 }
-#Intro {width: 80%;
-		margin: 0 auto;
+
+/*
+
+ .nav {margin:0 auto; display:block;}*/
+
+
+#menu-header li {
+	display:block;
+	font-family:helvetica;
+	text-transform: uppercase;
+	font-size:25px; 
+	color: black;
+	
+}
+
+#menu-a {
+	display: none;
+}
+
+#List:hover #menu-a {
+	display: block;
+}
+  
+
+	 
+	  /* end
+
+	   .nav {margin:0 auto; display:block;}*/
+
+
+
+Intro-wrapper{
+	
+}
+#Intro {width: 60%;
+		padding-top: 5%;
 	
 	}
+#header {
+		font-family:helvetica;
+		text-transform: uppercase;
+		font-size:30px; 
+		color: black;
+		font-weight: bold;
+		padding-top: 5%;
+	}
+	
+	#header1  {
+		font-family:helvetica;
+		font-size:20px; 
+		color: black;
+		font-weight: bold;
+		padding-top: 5%;
+	}
+	#header2 {
+		font-family:helvetica;
+		font-size:15px; 
+		color: black;
+	}
+	
+	#text {
+		font-family:helvetica;
+		font-size:15px; 
+		color: black;
+		padding-right:30%;
+	}
 p {
-	font-family:helvetica;
-	font-size:10px; 
+	font-family: helvetica;
+	font-size: 13px;
 	color: black;
-	line-height: 15px;
+	line-height: 1.5em;
+	width: 140%;
 	padding-top: 1%;
 }
 

@@ -1,34 +1,81 @@
 <!DOCTYPE html>
 <html>
   <head>
+	  
 		<title>portfolio</title>
 	  <!--[if lt IE 9]>
 	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	  <![endif]-->
+		  
 	 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	 <script src="jquery-smooth-scroll/lib/jquery/jquery.js"></script>
+	   <script src="jquery-smooth-scroll/src/jquery.smooth-scroll.js"></script>
+	   <script>
+	     $(document).ready(function() {
+
+	       $('ul.mainnav a').smoothScroll();
+
+	       $('p.subnav a').click(function(event) {
+	         event.preventDefault();
+	         var link = this;
+	         $.smoothScroll({
+	           scrollTarget: link.hash
+	         });
+	       });
+
+	       $('#change-speed').on('click', function() {
+	         var $p1 = $('ul.mainnav a').first(),
+	             p1Opts = $p1.smoothScroll('options') || {};
+
+	         p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
+	         $p1.smoothScroll('options', p1Opts);
+	       });
+
+	       $('button.scrollsomething').click(function() {
+	         $.smoothScroll({
+	           scrollElement: $('div.scrollme'),
+	           scrollTarget: '#findme'
+	         });
+	         return false;
+	       });
+	       $('button.scrollhorz').click(function() {
+	         $.smoothScroll({
+	           direction: 'left',
+	           scrollElement: $('div.scrollme'),
+	           scrollTarget: '.horiz'
+	         });
+	         return false;
+	       });
+
+	     });
+
+	   </script>
  </head>
  
  
  <body>
 	 <header id='site-header'>
- 	<h1>
- 	<img src="logo-mn-001.jpg"/></h1>
  </header>
- 
-<div id='menu-wrapper'>
-<nav id='main-menu'>
-  <ul>
-    <li>
-    	<a href="#">Index</a></li>
-    <li>
-    	<a href="http://montakan.github.io/final/index-me">About Me</a></li>
-    <li>
-    	<a href="#">Resume</a></li>
-    <li>
-    	<a href="#">Contact</a></li>
-  </ul>
-</nav>
-</div> 
+
+
+<div id='menu-header'>
+	<div id='menu'>
+		<ul id="Hamburger">
+			<li id="List"><a href="#"><img src="images/ham-100.jpg" alt="hamburger">
+				<ul id="menu-a">	
+ 			<li><a href="#">Index</a></li>
+		    <li><a href="http://montakan.github.io/final/index-me">About Me</a></li>
+		    <li>
+		    	<a href="#">Resume</a></li>
+		    <li>
+		    	<a href="#">Contact</a></li>
+		</ul>
+	</li>
+	</div>
+</div>
+	
+
+	 
 <div id='works1-wrapper'>
  	<article id='works1'>
 			</h1>	
