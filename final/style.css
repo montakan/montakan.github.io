@@ -56,6 +56,12 @@ div {
 		max-width: 100%;
 		margin: 0 auto;
 	}
+	
+	
+	
+
+
+	
 #works1 {
 	color:#76481b;
 	text-decoration:none;
@@ -98,10 +104,12 @@ h2 {
 
 #menu-a {
 	display: none;
+	
 }
 
 #List:hover #menu-a {
 	display: block;
+	padding-top:1%;
 }
   
 
