@@ -1,118 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-	  
-		<title>portfolio</title>
-	  <!--[if lt IE 9]>
-	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	  <![endif]-->
-		  
-	 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-	 <script src="jquery-smooth-scroll/lib/jquery/jquery.js"></script>
-	   <script src="jquery-smooth-scroll/src/jquery.smooth-scroll.js"></script>
-	   <script>
-	     $(document).ready(function() {
-
-	       $('ul.mainnav a').smoothScroll();
-
-	       $('p.subnav a').click(function(event) {
-	         event.preventDefault();
-	         var link = this;
-	         $.smoothScroll({
-	           scrollTarget: link.hash
-	         });
-	       });
-
-	       $('#change-speed').on('click', function() {
-	         var $p1 = $('ul.mainnav a').first(),
-	             p1Opts = $p1.smoothScroll('options') || {};
-
-	         p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
-	         $p1.smoothScroll('options', p1Opts);
-	       });
-
-	       $('button.scrollsomething').click(function() {
-	         $.smoothScroll({
-	           scrollElement: $('div.scrollme'),
-	           scrollTarget: '#findme'
-	         });
-	         return false;
-	       });
-	       $('button.scrollhorz').click(function() {
-	         $.smoothScroll({
-	           direction: 'left',
-	           scrollElement: $('div.scrollme'),
-	           scrollTarget: '.horiz'
-	         });
-	         return false;
-	       });
-
-	     });
-
-	   </script>
+		<title>portfolio</title>	  
  </head>
  
- 
- <body>
-	 <header id='site-header'>
- </header>
-
-
-<div id='menu-header'>
+<header>
+<div id="site-header">
+	
+<h1> 
+	<img src="images/logo-mn-01.jpg" alt="logo1">
+</h1>
+	
+<nav id="menu-bar">
 	<div id='menu'>
-		<img src="logo-mon-01.jpg" id="bg" alt="main-image">
-			<li id="List"><a href="#"><img src="images/ham-100.jpg" alt="hamburger">
-				<ul id="menu-a">	
- 			<li><a href="#">Index</a></li>
-		    <li><a href="http://montakan.github.io/final/index-me">About Me</a></li>
-		    <li>
-		    	<a href="#">Resume</a></li>
-		    <li>
-		    	<a href="#">Contact</a></li>
-		</ul>
-	</li>
+		<li id="List"><a href="#"><img src="images/ham-100.jpg" alt="hamburger">
+			<ul id="menu-a">	
+	 			<li><a href="#">Index</a></li>
+			    <li><a href="http://montakan.github.io/final/index-me">About Me</a></li>
+			    <li>
+			    	<a href="#">Resume</a></li>
+			    <li>
+			    	<a href="#">Contact</a></li>
+			</ul>
+		</li>
 	</div>
-</div>
-	
+</nav>
 
-	 
-<div id='works1-wrapper'>
- 	<article id='works1'>
-			</h1>	
-			<a href="#"><img src="octopus1.jpg" alt="octopus"/></h1>
-			
-			<h2 id="title">Editorial Design</h2> 
+</div> 
 
-			<h2>A Narrative Sequence</h2>
 
-			<p>Based a selection of texts provided, a sequence of pages, comprising a short story or an essay, were designed 
-using type and images formatted as a contemporary magazine. The project includes use of page grids, to build a series of 2&#8211page spreads, using design methods to promote readers’ understanding and appreciation.<p>
-	</article>
-</div>	
 
- <div id='works2-wrapper'>
- 	<article id='works2'>
-			</h1>	
-			<a href="#"><img src="poster-shoes01.jpg" alt="recycle"/></h1>
-				<h2 id="title">Posters & Postage Stamps </h2>
-				<h2>Series</h2>
-				<p>The objective of this assignment is to convey a message that raises awareness and motivates change, concern&#8211
-ing sustainability, using topics of water, trees or endangered species. A set of closely-related variant postage 
 
-stamps and a poster, which includes a persuasive fact, were designed.<p>
-				</article>
-			</div>
-	
-	<div id='works3-wrapper'>
-		<article id='works3'>
-			</h1>
-			<a href="#"><img src="heart01.jpg" alt="heart"/></h1>
-				<h2 id="title">Farmers Market</h2>
-				<h2>Advocacy Poster Series </h2>
-					<p>The assignment is to design a series of 3 posters to promote the weekly Farmers’ Market through the context of encouraging ‘better eating for better health’. The series of 3 posters will be used as an awareness campaign on public transportation systems (in and on subways and buses, bus shelters) and on free-standing street kiosks and possibly banners in the Mission Hill neighborhood and the greater Boston area.<p>
-	</article>
-	</div>
-		 <a herf="index-me.html"/a>
-
-  </body>
-</html>
