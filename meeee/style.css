@@ -24,33 +24,24 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Add Styles Here */
-body { font-family:Times; font-size:14px; }
+bbody { font-family:Times; font-size:14px; }
 section#content { margin:0 auto; width:960px; padding:20px 0px; }
 
 h1 { font-size:48px; font-weight:bold; color:black; text-align:center; }
 h2 { font-size:36px; font-weight:bold; color:black; text-align:center; }
 p { padding-bottom:10px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
