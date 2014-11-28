@@ -302,13 +302,21 @@ body .background {
 	
 	
 	/*link about me*/
+	
+	
+	.home {
+		position: fixed;
+		padding-left: 5%;
+	}
+	
+	
 	.color-bakground {
 		background-color: white;
 		width: 80%;
 		margin-left: 10%;
 		margin-top: 10%;
 		margin-right: 10%;
-		padding-bottom: 20%;
+		padding-bottom: 2s0%;
 	
 	}
 	
