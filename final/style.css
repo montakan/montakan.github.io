@@ -72,15 +72,14 @@ table {
 	}
 	
 			nav {
-				
-				background-color: black;
-				height: 30%;
-				width: 90%;
-				z-index: 1000;
+				background-color: #3F3F3F;
+				/* height: 20%; */
+				width: 100%;
+				/* z-index: 1000; */
 				position: fixed;
-				margin-left: 32px;
-				padding-bottom: 1%;		
-
+				/* margin-left: 32px; */
+				padding-bottom: 1%;
+				
 			}
 		
 	
@@ -88,9 +87,9 @@ table {
 	
 	.navigationone {	
 		text-decoration: none;
-		height: 37px;
-		padding-top: 2.5%;
-		text-align: left;
+		height: 20px;
+		padding-top: 1.5%;
+		/* text-align: left; */
 		padding-left: 5%;
 		font-family: rockwell;
 		
@@ -99,12 +98,16 @@ table {
 	
 	
 	.navigationone	li {
-			display: inline;
-			padding:.5em;
-			font-size:120%;
-			font-weight: 200;
-			
-			background-color: black;
+		display: inline;
+		padding: .4em;
+		font-size: 120%;
+		font-weight: 200;
+		/* padding-left: 1%; */
+		background-color: #4D4C4C;
+		/* padding-top: 5%; */
+		/* margin-top: 5%; */
+		/* margin-bottom: 5%; */
+		border-radius: 5px;
 
 		 	}	
 	 
@@ -131,7 +134,7 @@ body {
 body .background {
 		
 	color: rgb(0, 0, 0);
-	background-color: rgba(128, 128, 128, 0.5);
+	background-color: rgba(69, 69, 69, 0.9);
 	padding-bottom: 100em;
 }
 	
@@ -182,7 +185,7 @@ body .background {
 	/*CONTAINER STYLES*/
 
 	.container1 {
-		width: 75%;
+		width: 85%;
 		margin: 30px auto;
 		overflow: hidden;
 		padding-top: 50%;
@@ -193,11 +196,11 @@ body .background {
 	font-size: 40px;
 	font-family: rockwell;
 	width: 100%;
-	text-transform: uppercase;
 	color: rgb(247, 0, 131);
 	padding-bottom: 3%;
 	padding-left: 2%;
 	padding-top: 3%;
+	text-transform: uppercase;
 	}
 	
 
@@ -206,19 +209,20 @@ body .background {
 		color: #797478;
 		font: 10px/1.5 Verdana, Helvetica, sans-serif;
 		width: 30%;
-		margin: 1% 1% 50px 2%;
+		/* margin: 1% 2% 50px 1%; */
 		float: left;
 		-webkit-transition: color 0.5s ease;
-		background-color:black;
+		background-color: black;
 		padding-bottom: 3%;
-		
-		
+		border-radius: 7px;
+		margin-left: 2.5%;
+		margin-bottom: 2.5%;
 	}
 	
 
 
 	.galleryItem h3 {
-		text-transform: uppercase;
+
 		line-height: 2;
 		padding-left: 5%;
 		font-size: 15px;
@@ -230,6 +234,7 @@ body .background {
 		line-height: 1.5;
 		padding-left: 5%;
 		color: rgb(192, 192, 192);
+		width: 92%;
 	}
 
 	.galleryItem:hover {
@@ -237,10 +242,10 @@ body .background {
 	}
 
 	.galleryItem img {
-		max-width: 100%;
+		width: 100%;
 		-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;
-		border-radius: 5px;
+		border-radius: 7px;
 	}
 
 
@@ -248,30 +253,52 @@ body .background {
 /* MEDIA QUERIES*/
 	
 	/* MEDIA QUERIES*/
+	@media only screen and (max-width : 1100px),
+	only screen and (max-device-width :1100px){
+		.galleryItem {width: 30%;}
+		.galleryItem img {width: 100%;}
+		body .background {padding-bottom: 120em;}
+		.galleryItem p {width: 95%;}
+		.info{padding-left:70%;}
+	}
+		
+		
 	@media only screen and (max-width : 940px),
 	only screen and (max-device-width : 940px){
-		.galleryItem {width: 40%;}
+		.galleryItem {width: 45%;}
+		.galleryItem p {width: 99%;}
+		.galleryItem img {width: 100%;}
+		body .background {padding-bottom: 120em;}
 	}
 
 	@media only screen and (max-width : 720px),
 	only screen and (max-device-width : 720px){
-		.galleryItem {width: 50%;}
+		.galleryItem {width: 80%;}
+		.galleryItem img {width: 100%;}
 		.header h1 {font-size: 40px;}
+		.info{padding-left:70%;}
+		body .background {padding-bottom: 250em;}
 	}
 
 	@media only screen and (max-width : 530px),
 	only screen and (max-device-width : 530px){
 		.galleryItem {width: 80%;}
+		.galleryItem img {width: 100%;}
 		.header h1 {font-size: 28px;}
+		.info{padding-left:70%;}
+		body .background {padding-bottom: 190em;}
+		
 	}
 
 	@media only screen and (max-width : 320px),
 	only screen and (max-device-width : 320px){
-		.galleryItem {width: 90%;}
+		.galleryItem {width: 100%;}
 		.galleryItem img {width: 100%;}
 		.galleryItem h3 {font-size: 18px;}
 		.galleryItem p, .header p {font-size: 18px;}
 		.header h1 {font-size: 70px;}
+		.info{padding-left:53%;}
+		body .background {padding-bottom: 300em;}
 	}
 	
 	
@@ -284,17 +311,17 @@ body .background {
 	/*FOOTER*/
 
 	footer     {
-	   position:fixed;
-	margin-top:20px;
-	   left:0px;
-	   bottom:0px;
-	   height:50px;
-	   width:100%;
-	   background-color:#000;
-	color:white;
-	font-size:75%;
-	text-align:left;
-	padding-left:10%;
+		position: fixed;
+		margin-top: 20px;
+		left: 0px;
+		bottom: 0px;
+		height: 30px;
+		width: 100%;
+		background-color: #3F3F3F;
+		/* color: white; */
+		/* font-size: 75%; */
+		text-align: left;
+		padding-left: 5%;
 
 }
 	/*FOOTER*/
