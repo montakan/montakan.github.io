@@ -67,7 +67,11 @@ table {
 	/*NAVIGATION*/
 	
 	.container{
+<<<<<<< HEAD
 		min-width: 400px;
+=======
+		max-width: 100%;
+>>>>>>> FETCH_HEAD
 		overflow: hidden;
 		max-width: 1280px;
 	}
@@ -86,7 +90,7 @@ table {
 	
 		
 	
-	.navigationone {	
+	#navigationone {	
 		text-decoration: none;
 		height: 20px;
 		padding-top: 1.5%;
@@ -98,7 +102,7 @@ table {
 			}
 	
 	
-	.navigationone	li {
+	#navigationone	li {
 		display: inline;
 		padding: .4em;
 		font-size: 120%;
@@ -119,16 +123,18 @@ table {
 
 	
 	
-	
+			html { 
+			  background: url(images/logo-mn-01.jpg) no-repeat center center fixed; 
+			  -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  -o-background-size: cover;
+			  background-size: cover;
+			}
 	
 	
 	/*background*/
 	
-body {
-	    background-image: url("images/logo-mn-01.jpg");
-	    background-repeat: no-repeat;
-	    background-attachment: fixed;
-	}
+
 	
 	
 	
@@ -254,6 +260,8 @@ body .background {
 /* MEDIA QUERIES*/
 	
 	/* MEDIA QUERIES*/
+	
+	
 	@media only screen and (max-width : 1100px),
 	only screen and (max-device-width :1100px){
 		.galleryItem {width: 30%;}
