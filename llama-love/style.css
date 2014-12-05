@@ -53,40 +53,33 @@ table {
 /* -----------------END RESET---------------- */
 
 
-#main-content {
-	position: absolute;
-	/* max-width: 80%; */
-	/* height: 480px; */
-	/* padding: 5px; */
-	margin-left: 7%;
-	margin-right: auto;
-	top: 50px;
 
-}
 
 #left {
-	position: absolute;
-	top: 10px;
-	/* margin: 10px 20px; */
-	width: 530px;
-	padding: 10px;
-	height: 450px;
+	margin-top: 10%;
+	float: left;
+	padding: 20px;
+	width: 510px;
+	padding-left: 8%;
+	margin-bottom: 10%;
+
 }
 
-#right {
-	position: absolute;
-	top: 10px;
-	left: 550px;
-	width: 530px;
-	padding: 10px;
-	/* margin: 10px 20px; */
-	height: 450px;
-}
+#right  {
+	margin-top: 10%;
+	padding: 20px;
+	float: right;
+	width: 520px;
+	padding-right: 8%;
+	margin-bottom: 10%;
+	}
+
 
 img {
-    float:left;
-	margin:13px;
-	padding:4px;
+	float: left;
+	/* margin: 13px; */
+	padding: 4px;
+	margin-right: 2%;
 }
 
 
@@ -104,10 +97,10 @@ p {
 
 h1 {
     
-font-size: 30px;
-transform: uppercase;
-margin: 10px;
-font-weight: bold;
+	font-size: 35px;
+	transform: uppercase;
+	/* margin: 10px; */
+	font-weight: bold;
 
 
 }
