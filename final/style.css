@@ -67,8 +67,9 @@ table {
 	/*NAVIGATION*/
 	
 	.container{
-		width: 100%;
+		min-width: 400px;
 		overflow: hidden;
+		max-width: 1280px;
 	}
 	
 			nav {
@@ -185,10 +186,10 @@ body .background {
 	/*CONTAINER STYLES*/
 
 	.container1 {
-		width: 85%;
-		margin: 30px auto;
+		
+		min-width: 400px;
 		overflow: hidden;
-		padding-top: 50%;
+		max-width: 1280px;
 	}
 	
 	
@@ -282,9 +283,10 @@ body .background {
 
 	@media only screen and (max-width : 530px),
 	only screen and (max-device-width : 530px){
-		.galleryItem {width: 80%;}
+		.galleryItem {width: 50%; padding-left: 10%;}
 		.galleryItem img {width: 100%;}
-		.header h1 {font-size: 28px;}
+		.header h1 {font-size: 40px;}
+		.galleryItem h3 {font-size: 25px;}
 		.info{padding-left:70%;}
 		body .background {padding-bottom: 190em;}
 		
