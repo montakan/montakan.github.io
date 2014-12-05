@@ -54,33 +54,33 @@ table {
 
 
 #main-content {
-   	position:relative;
-	width:90%;
-	height:480px;
-	padding:5px;
-    margin-left: auto;
-    margin-right: auto;
-  	top:50px;
+	position: absolute;
+	/* max-width: 80%; */
+	/* height: 480px; */
+	/* padding: 5px; */
+	margin-left: 7%;
+	margin-right: auto;
+	top: 50px;
 
 }
 
 #left {
-   	position:absolute;
-    top:10px;
-	margin:10px 20px;
-    width:500px;
-    padding:10px;
-	height:450px;	
+	position: absolute;
+	top: 10px;
+	/* margin: 10px 20px; */
+	width: 530px;
+	padding: 10px;
+	height: 450px;
 }
 
 #right {
-   	position:absolute;
-    top:10px;	
-	left:550px;
-    width:500px;
-    padding:10px;	
-	margin:10px 20px;
-	height:450px;	
+	position: absolute;
+	top: 10px;
+	left: 550px;
+	width: 530px;
+	padding: 10px;
+	/* margin: 10px 20px; */
+	height: 450px;
 }
 
 img {
