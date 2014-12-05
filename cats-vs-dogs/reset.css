@@ -154,12 +154,17 @@ section .nav {margin:0 auto; display:inline-block;}*/
 
 }
 
+
+
+
+
 body {
-	width: 100%;
-	margin: 0 auto;
+	max-width: 100%;
 }
 
-li {padding:.2em;}
+li {
+	padding:.2em;
+}
 
 
 section {
@@ -167,19 +172,23 @@ section {
   text-align:left;
   font-family:times;
 }
-.cats {	width:49%;
+
+
+.cats {	
 	float:left;
 	padding-top:1%;
   padding-bottom:1%;
   font-family:times
+  s
 }
 	
 	
-.dogs { 	width:49%;
-	float:right;
-	padding-top:1%;
-  padding-bottom:1%;
-font-family:times
+.dogs { float: left;
+width: 45%;
+/* margin-left: 1%; */
+padding-left: 10%;
+width: 40%;
+
 }
 	
 	
