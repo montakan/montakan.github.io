@@ -75,19 +75,9 @@ section .nav {margin:0 auto; display:inline-block;}*/
 body {
 	font-size:16px;
   margin:0 auto;
-  max-width: 1200px;
+  width:1000px;
   font-family: 'league_gothicregular';
 }
-
-#hamburger{
-	display: block;
-	width:30%;
-	
-}
-  #vs {
-	  font-size:30px;
-  	
-  }
 
 li {padding:.2em;}
 
@@ -97,24 +87,23 @@ section {
   text-align:left;
   font-family:times;
 }
-.cats {
-	width:45%;
+.cats {	width:49%;
 	float:left;
 	padding-top:1%;
-  	padding-bottom:1%;
-  	font-family:league_gothicregular;
-  
-  	font-size: 1.3em;
-  	line-height: 1.2em;}
+  padding-bottom:1%;
+  font-family:league_gothicregular;}
 	
 	
-.dogs { 	
-	width:45%;
+.dogs { 	width:49%;
 	float:right;
 	padding-top:1%;
-  	padding-bottom:1%;
-  	font-size: 1.3em;
-  	line-height: 1.2em;}
+  padding-bottom:1%;}
+	
+	
+p{
+	font-size:1.2em;
+	
+	}
 
 
 h1 {font-family:times;
@@ -130,14 +119,11 @@ h1 {font-family:times;
 
 em {font-weight:bold;}
 	
-nav {
-	font-size: 10em;
-font-family: times;
-border-top: .06em solid rgb(219, 93, 146);
-/* border-bottom: .1em solid black; */
-
+nav {font-size:2em;
+	font-family:times;
+	border-top:.1em solid black;
+	border-bottom:.1em solid black;
 }
-
 
 
 
@@ -148,17 +134,14 @@ text-align:center;
 text-decoration:none;
 }
 
-nav li {
-	display:inline-block;
-	text-decoration: none;
-}
+nav li {display:inline-block;;/p}
   
 ul {
-	list-style-type: none;
-	/* padding: .05em; */
-	/* overflow: hidden; */
-	text-align: center;
-}
+      list-style-type: none;
+
+      padding: .05em;
+      overflow: hidden;
+	  text-align:center;}
 	  
 
 
@@ -187,35 +170,17 @@ footer {clear:both;
 .copy {float:right;}
 
 
-h3 {
-	font-size:2em;
-	line-height:1.5em;
-}
+h3 {font-size:2em;
+	line-height:1.5em;}
 
 .wiki {color:red;}	
 .marthar {color:red;}
   
 body { width:100%; margin:0 auto; max-width:1024px; } /*THIS IS YOUR SITE WRAPPER*/
-.dogs { float:right; width:45%; margin-left:1%; }
-.cats { float:left; width:45%; margin-right:1%; }
+.dogs { float:left; width:45%; margin-left:1%; }
+.cats { float:right; width:45%; margin-right:1%; }
 
-#Hamburger {
-	position: relative;
-	right:45%;
-}	
-#nav li {
-	font-size:60%;
-	display: block;
-	
-}	
 
-#menu {
-	display: none;
-}
-
-#List:hover #menu {
-	display: block;
-}
 
 
 
@@ -224,59 +189,30 @@ body { width:100%; margin:0 auto; max-width:1024px; } /*THIS IS YOUR SITE WRAPPE
 
 @media screen and (max-width:750px) { /*THIS IS THE CHANGE IN THE PAGE*/
 	
-#nav li {
-	font-size:70%;
-	display: block;
-	padding-left:50%;
-	
-}	
-
-#nav {
-	
-	font-size: 10em;
-}
-
-#menu {
-	display: none;
-}
-
-#List:hover #menu {
-	display: block;
-	width: 10%;
-} 
-			
-.cats {
-		float:left;
+#nav li {font-size:80%;}
+	  			
+.cats {	float:left;
 		width:98%;
 		margin:0 1%;
-	
-	margin-left:8%}		
-
-
+		font-size:10em;
+		margin-left:8%}	
+		
 .dogs {
 		width:98%;
 		margin:0 1%;
-		size:20em;
+		font-size:10em;
 		float:left;
 		margin-left:8%
-		
 	}
-
-
-		
+h3 {font-size: 20%}		
  img {max-width:90%;} 
- p {width:70%;}
+ p {width:80%; font-size:15%;}
  body {width:705;}
  footer {width:100%;}
  		
 }
 
-
-
-
-
-
-/*THIS IS THE CHANGE IN THE PAGE*/
+@media screen and (max-width:450px) { /*THIS IS THE CHANGE IN THE PAGE*/
 	
-#nav li {font-size:40%;
+#nav li {
 	text-align:center;}

@@ -92,24 +92,29 @@ img {
 
 
 p {
-    font-family:Helvetica;
-    font-size:13px;
-    margin:10px;
+	padding-top: 3%;
+	font-family: Helvetica;
+	font-size: 14px;
+	
+	font-weight: normal;
+	line-height: 1.3em;
 }
 
 
 
 h1 {
-    font-family:Helvetica;
-    font-size:30px;
-	transform: uppercase;
-    margin:10px;
+    
+font-size: 30px;
+transform: uppercase;
+margin: 10px;
+font-weight: bold;
+
 
 }
 
 
 h2 {
-    font-family:Helvetica;
+    
     font-size:17px;
     margin:10px;
 

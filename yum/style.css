@@ -61,12 +61,14 @@ body {
     width: 60%;
 }
 
-.lemon {
+.ingre img {
 	
 	padding-top:20px;
 	padding-bottom:20px;
+	margin-left: 20%;
 	
 }
+
 
 
 h1 {
@@ -79,6 +81,7 @@ h1 {
 	padding-top:30px;
     padding-bottom:10px;
 	text-align: center;
+	padding-right: 10%;
 	
 }
 h2 {
@@ -108,7 +111,7 @@ h2 {
 #box2 {
 	position: relative;
 	padding-left: 40%;
-	padding-top: 10%;
+	padding-top: 18%;
 	width: 50%;
 	
 }
@@ -150,19 +153,13 @@ ol{
 
 .information{
 	
-padding-left: 23px; 
-font-size: 15px;
-font-family: caslon;
-width: 30%;
-position: relative;
+	padding-right: 100%;
+	font-size: 15px;
+	font-family: caslon;
+	width: 30%;
+	float: left;
+	line-height: 2em;
 
-line-height: 1.5em;
-
-}
-
-.information ul {
-	text-decoration: none;
-	
 }
 
 
