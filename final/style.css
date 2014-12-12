@@ -335,25 +335,27 @@ padding-top: 5%;
 /* MEDIA QUERIES*/
 	
 	/* MEDIA QUERIES*/
-	
+	@media only screen and (max-width : 1920px),
+	only screen and (max-device-width :1920px){
+		.grid effect6{width: 50%;}
+		#baby { padding-top: 120%;}
+		#wrap-background {padding-bottom: 60em;}
+	}
 	
 	@media only screen and (max-width : 1100px),
 	only screen and (max-device-width :1100px){
-		.galleryItem {width: 30%;}
-		.galleryItem img {width: 100%;}
-		
-		.galleryItem p {width: 95%;}
-		.info{padding-left:70%;}
+		.grid effect6{width: 30%; padding-right:10px;}
+		#wrap-background {padding-bottom: 120em;}
+		#baby { padding-top: 150%;}
 	}
 	
 		
 		
 	@media only screen and (max-width : 940px),
 	only screen and (max-device-width : 940px){
-		.galleryItem {width: 45%;}
-		.galleryItem p {width: 99%;}
-		.galleryItem img {width: 100%;}
-		#wrap-background {padding-bottom: 90em;}
+		.grid effect6 {width: 45%;}
+		#baby { padding-top: 140%;}
+		#wrap-background {padding-bottom: 180;}
 	}
 
 
@@ -362,33 +364,27 @@ padding-top: 5%;
 
 	@media only screen and (max-width : 720px),
 	only screen and (max-device-width : 720px){
-		.galleryItem {width: 45%;}
-		.galleryItem img {width: 100%;}
-		.header h1 {font-size: 40px;}
-		.info{padding-left:70%;}
-		#wrap-background {padding-bottom: 180em;}
+		.grid effect6{width: 20%;}
+		#baby { padding-top: 170%;}
+		#wrap-background {padding-bottom: 200em;}
 	}
 
 	@media only screen and (max-width : 530px),
 	only screen and (max-device-width : 530px){
-		.galleryItem {width: 80%; margin-left: 10%;}
-		.galleryItem img {width: 100%;}
+		.grid effect6 {width: 80%; margin-left: 10%;}
+	
 		.header h1 {font-size: 40px;}
-		.grid {margin-left: 6%;
-			padding-bottom:5%;}
-		.info{padding-left:70%;}
-		#wrap-background {padding-bottom: 160em;}
+		.grid {margin-left: 6%;padding-bottom:5%;}
+		#wrap-background {padding-bottom: 220em;}
+			#baby { padding-top: 230%;}
 		
 	}
 
 	@media only screen and (max-width : 320px),
 	only screen and (max-device-width : 320px){
 		.galleryItem {width: 100%;}
-		.galleryItem img {width: 100%;}
 		.galleryItem h3 {font-size: 18px;}
-		.galleryItem p, .header p {font-size: 18px;}
 		.header h1 {font-size: 70px;}
-		.info{padding-left:53%;}
 		#wrap-background {padding-bottom: 250em;}
 	}
 	
